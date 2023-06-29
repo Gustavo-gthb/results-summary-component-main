@@ -1,0 +1,62 @@
+.main {
+    position: relative;
+    bottom: 515px;
+    /* color: hsl(0, 0%, 100%, 0.6); */
+    color:hsl(241, 100%, 89%);
+}
+
+.h1_great {
+    position: relative;
+    left: 530px;
+    bottom: 30px;
+    color: hsl(0, 0%, 100%); 
+}
+
+.description {
+    position: relative;
+    left: 470px;
+    bottom: 10px;
+}
+
+.p_ajustes {
+    position: relative;
+    left: 14px;
+}
+
+.p_ajustes2 {
+    position: relative;
+    left: 70px;
+}
+
+@media only screen and (max-device-width: 375px) {
+    .main {
+        right: 400px;
+        bottom: 650px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .h1_great {
+        font-size: 25px;
+        left: 547px;
+        bottom: 27px;
+    }  
+    
+    .p_ajustes_mobile {
+        position: relative;
+        left: 225px;
+        bottom: 16px;    
+
+    }   
+
+    .p_ajustes {
+        left: -28px;    
+    }
+
+    .p_ajustes2 {
+        left: 145px;
+        bottom: 16px;
+    }
+}

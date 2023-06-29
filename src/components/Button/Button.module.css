@@ -1,0 +1,39 @@
+.button {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 38px;
+    border: 1px solid hsl(252, 100%, 67%);
+    background:hsl(224, 30%, 27%);
+    border-radius: 25px;
+    bottom: 780px;
+    left: 754px;
+}
+
+.button:hover {
+    background:linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+}
+
+.button_position {
+    position: relative;
+    left: 73px;
+    top: 8px;
+    color: white;
+}
+
+
+@media only screen and (max-device-width:375px){
+    .button {
+        left: 33px;  
+        bottom: 577px;
+        width: 310px;
+        height: 55px;
+        border-radius: 40px;
+    }
+
+    .button_position {
+        font-size: 17px;    
+        top: 17px;  
+        left: 110px;
+    }
+}

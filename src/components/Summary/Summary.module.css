@@ -1,0 +1,159 @@
+.summary {
+    position: relative;
+    gap: 30px;
+    bottom: 815px;
+    left: 758px;    
+    font-size: small;
+}
+
+
+.list {
+    position: relative;
+    list-style: none;
+    gap: 300px;         
+}
+
+.reaction_border{
+    position:relative;
+    border: 1px solid hsl(224, 30%, 27%,0.1);
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+.memory_border {
+    position:relative;
+    border: 1px solid hsl(224, 30%, 27%,0.1);
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+
+.verbal_border {
+    position:relative;   
+    border: 1px solid hsl(224, 30%, 27%,0.1);
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+
+.visual_border {
+    position: relative;
+    border: 1px solid  hsl(224, 30%, 27%,0.1);
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+svg{
+    position: relative;
+    top: 10px;
+    left: 11px;
+}
+
+.reaction {
+    position: relative;
+    left: 16px;
+    top: 4px;
+    color: hsl(0, 100%, 57%);   
+}
+
+.memory {
+    position: relative;
+    left: 16px;
+    top: 4px;
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    position: relative;
+    left: 16px;
+    top: 4px;
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    position: relative;
+    left: 16px;
+    top: 4px;
+    color: hsl(234, 85%, 45%);
+}
+
+.position_number {
+    position: relative;
+    left: 145px;
+    bottom: 10px;
+}
+
+.number_color {
+    color: hsl(224, 30%, 27%,0.6);
+}
+
+
+@media only screen and (max-device-width: 375px){
+    .summary {
+        left: 37px;
+        bottom: 600px;
+    }
+
+    .reaction_border {
+        width: 300px;
+        height: 43px;
+        margin-bottom: 20px;
+    }   
+    .memory_border {
+        width: 300px;
+        height: 43px;
+        margin-bottom: 20px;
+    }   
+    .verbal_border {
+        width: 300px;
+        height: 43px;
+        margin-bottom: 20px;
+    }   
+    .visual_border {    
+        width: 300px;
+        height: 43px;
+        /* margin-bottom: 20px; */
+    }   
+
+    svg {
+        top: 14px;
+    }
+
+    .reaction {
+        left: 16px;
+        top: 9px;  
+    }
+    
+    .memory {
+        left: 16px;
+        top: 9px;
+    }
+    
+    .verbal {
+        left: 16px;
+        top: 9px;;
+    }
+    
+    .visual {
+        left: 16px;
+        top: 9px;
+    }
+    
+    .position_number {
+        bottom: 5px;
+        left: 240px;
+    }
+
+
+}

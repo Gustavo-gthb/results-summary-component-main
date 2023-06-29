@@ -1,0 +1,54 @@
+.circle {
+    display: flex;
+    position: relative;
+    border:1px solid hsla(256, 72%, 46%, 0.1);
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0.2));
+    bottom: 560px;
+    left: 493px;
+    margin: 0;
+    
+}
+
+.circle_p {
+    position: relative;
+    left: 49px; 
+    top: 40px; 
+    
+}
+
+.seven_six{
+    position: relative;
+    font-size: 60px;
+    color: hsl(0, 0%, 100%);
+}
+
+.circle_center_position {
+    position: relative;
+    left: 10px;
+    color: hsl(0, 0%, 100%, 0.3);
+}
+
+@media only screen and (max-device-width: 375px) {
+    .circle {
+        width: 120px;
+        height: 120px;
+        left: 123px;
+        bottom: 690px;
+    }
+
+    .circle_p {
+        left: 36px;
+        top: 28px;
+    }
+
+    .seven_six {
+        font-size: 45px;  
+    }
+
+    .circle_center_position {
+        left: 5px;
+    }
+}

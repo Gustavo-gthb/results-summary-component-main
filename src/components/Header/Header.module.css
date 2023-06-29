@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    position: relative;
+    bottom: 590px;
+    left: 515px;
+    gap: 140px;
+    font-size: 18px;
+}
+ 
+.header_div {
+    color:hsl(241, 100%, 89%);  
+}
+
+.Summary_text {
+    color: hsl(224, 30%, 27%);
+}
+
+@media only screen and (max-device-width: 375px) {
+        .header_div {
+            position: relative;
+            font-size: 15px;
+            right: 375px;
+            bottom: 120px; 
+        }
+
+        .Summary_text {
+            position: relative;
+            right: 710px;   
+            top: 170px;
+        }
+    }
+ 
